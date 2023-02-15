@@ -1,2 +1,2 @@
 graphyte
-gql[websocket]
+gql[websockets]
