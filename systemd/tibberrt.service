@@ -1,0 +1,11 @@
+[Unit]
+Description=Tibber Realtime client
+
+[Service]
+User=root
+WorkingDirectory=/opt/graphiteclient/tibberclient
+ExecStart=/opt/graphiteclient/tibberclient/fetch_rt.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
